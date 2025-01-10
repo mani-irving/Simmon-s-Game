@@ -77,7 +77,7 @@ function nextSequence() {
 
 //This function only takes care of the sound corresponding to each colour
 function playSound(name) {
-  var audio = new Audio("sounds/" + name + ".mp3");
+  var audio = new Audio(name + ".mp3");
   audio.play();
 }
 
